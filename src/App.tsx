@@ -10,10 +10,6 @@ export default class App extends Component {
    * @return {JSX.Element}
    */
   render() {
-    return <div>	
-			
-This is a test.
-
-</div>;
+    return <div>This is a test.</div>;
   }
 }
