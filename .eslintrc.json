@@ -13,7 +13,9 @@
     "sourceType": "module"
   },
   "plugins": ["react", "@typescript-eslint"],
-  "rules": {},
+  "rules": {
+    "quotes": ["error", "single"]
+  },
   "settings": {
     "react": {
       "version": "latest"
