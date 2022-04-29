@@ -1,14 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-/**
- * The App component
- */
-export default class App extends Component {
-  /**
-   * The render method.
-   * @return {JSX.Element}
-   */
-  render() {
-    return <div>This is a test.</div>;
-  }
-}
+const App = () => {
+  return <div>Hello World!</div>;
+};
+
+export default App;
